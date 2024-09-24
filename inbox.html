@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inbox - Email Summarizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <h2>Email Summarizer - Inbox</h2>
+    <a href="summarize.html" class="btn-nav">Summarize Email</a>
+    <a href="archive.html" class="btn-nav">Archived Summaries</a>
+    <a href="daily_summaries.html" class="btn-nav">Daily Summaries</a>
+    <button id="logoutBtn" class="btn-logout">Logout</button>
+  </div>
+
+  <div class="container">
+    <div class="inbox-section">
+      <h3>Inbox</h3>
+      <ul id="emailList">
+        <!-- Email items will be dynamically inserted here -->
+      </ul>
+    </div>
+  </div>
+  
+  
+  <script src="app.js"></script>
+</body>
+</html>

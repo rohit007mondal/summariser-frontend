@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summarize Email - Email Summarizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <h2>Email Summarizer - Summarize Email</h2>
+    <a href="inbox.html" class="btn-nav">Inbox</a>
+    <a href="archive.html" class="btn-nav">Archived Summaries</a>
+    <a href="daily_summaries.html" class="btn-nav">Daily Summaries</a>
+    <button id="logoutBtn" class="btn-logout">Logout</button>
+  </div>
+
+  <div class="container">
+    <div class="summarizer-section">
+      <h3>Summarize Email</h3>
+      <textarea id="emailContent" placeholder="Select an email from the inbox..."></textarea>
+      <button id="summarizeBtn" class="btn-summarize">Summarize</button>
+      <textarea id="summaryContent" placeholder="Summarized content will appear here..."></textarea>
+      <button id="archiveBtn" class="btn-archive">Save to Archive</button>
+      <button id="emailBtn" class="btn-email">Send Summary to Email</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
